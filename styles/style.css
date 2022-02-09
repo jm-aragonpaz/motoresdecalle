@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Stem;
+    src: url(../assets/fnt/EM-Stem/OTF/Stem-BoldItalic.otf);
+}
+
+header{
+    background-color: #DDDDDD;
+    border-bottom: #C98C27 solid 3px;
+}
+body{
+    background-color: #323d48;
+    color: #DDDDDD;
+}
+.logotipo{
+    font-family: 'Stem', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    color:#323d48;
+    text-decoration: none;
+}
+#destacado{
+    padding: 1rem;
+    border-bottom: #C98C27 solid 2px;
+}
+
+#noticias{
+    padding: 1rem;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.not__tab{
+    justify-content: space-evenly;
+}
+
+#videos{
+    /* margin-left: 4rem; */
+    padding-top: 1rem;
+}
+
+.dest__img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+footer{
+    margin-top: 3rem;
+}
+
+.social{
+    padding: 1rem;
+}
+
+
+.copyright{
+    grid-area: copy;
+    display: flex;
+    background-color:#3b4754;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-top: #C98C27 solid 3px;
+    margin-top: 1rem;
+    text-align: center;
+}
