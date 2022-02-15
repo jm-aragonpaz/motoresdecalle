@@ -11,6 +11,9 @@ header {
   background-color: #DDDDDD;
   border-bottom: #C98C27 solid 3px; }
 
+.navbar {
+  border-bottom: #C98C27 solid 3px; }
+
 .bg-custom {
   background-image: linear-gradient(to right, white, #DDDDDD); }
 
@@ -20,10 +23,6 @@ header {
 .link__animation:hover {
   transition: 1s;
   color: #C98C27; }
-
-body {
-  background-color: #323d48;
-  color: #DDDDDD; }
 
 .logo__size {
   height: 100px;
@@ -39,6 +38,11 @@ body {
   font-size: 4rem;
   color: #323d48;
   text-decoration: none; }
+
+body {
+  background-color: #323d48;
+  color: #DDDDDD;
+  padding-top: 115px; }
 
 #destacado {
   padding: 1rem;
