@@ -78,7 +78,8 @@ footer {
   margin-top: 0.2rem; }
 
 .social {
-  padding: 1rem; }
+  padding: 1rem;
+  text-align: center; }
 
 .copy__text {
   grid-area: copy;
