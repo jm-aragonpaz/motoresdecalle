@@ -7,6 +7,10 @@
   font-family: Stem;
   src: url(../assets/fnt/EM-Stem/OTF/Stem-BoldItalic.otf); }
 
+.borde-texto {
+  color: #DDDDDD;
+  text-shadow: -1px -1px 0 #323d48, 1px -1px 0 #323d48, -1px 1px 0 #323d48, 1px 1px 0 #323d48; }
+
 header {
   background-color: #DDDDDD;
   border-bottom: #C98C27 solid 3px; }
@@ -56,6 +60,18 @@ body {
     background-color: #3b4754;
     padding: 0.5rem;
     margin-top: 0.5rem; }
+
+.color-links {
+  color: #DDDDDD; }
+
+.bg-dark {
+  background-color: #323d48; }
+
+.barra {
+  border-bottom: #c98c27 solid 2px; }
+
+.p-1 {
+  padding: 1rem; }
 
 #videos {
   /* margin-left: 4rem; */
