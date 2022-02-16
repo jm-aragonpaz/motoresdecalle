@@ -44,15 +44,6 @@ body {
   color: #DDDDDD;
   padding-top: 115px; }
 
-#destacado {
-  padding: 1rem;
-  border-bottom: #C98C27 solid 2px; }
-  #destacado .destacado__tit {
-    font-weight: 700; }
-  #destacado .destacado__text {
-    font-family: rubik;
-    font-weight: 400; }
-
 #noticias {
   padding: 1rem;
   justify-content: space-evenly;
@@ -69,6 +60,15 @@ body {
 #videos {
   /* margin-left: 4rem; */
   padding-top: 1rem; }
+
+#destacado {
+  padding: 1rem;
+  border-bottom: #C98C27 solid 2px; }
+  #destacado .destacado__tit {
+    font-weight: 700; }
+  #destacado .destacado__text {
+    font-family: rubik;
+    font-weight: 400; }
 
 .dest__img {
   height: 100%;

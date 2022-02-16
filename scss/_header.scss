@@ -1,0 +1,34 @@
+header{
+    background-color: #DDDDDD;
+    border-bottom: #C98C27 solid 3px;
+}
+.navbar{
+    border-bottom: #C98C27 solid 3px;
+}
+
+.bg-custom{
+    background-image: linear-gradient(to right,white,#DDDDDD);
+}
+.link__animation{
+    color: #323d48;
+}
+.link__animation:hover{
+    transition: 1s;
+    color: #C98C27;
+}
+.logo__size{
+    height: 100px;
+    width: 100px;
+}
+.logo__size:hover{
+        transition: 2s;
+        transform: scale(1.1,1.1);
+}
+
+.logotipo{
+    font-family: 'Stem', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    color:#323d48;
+    text-decoration: none;
+}

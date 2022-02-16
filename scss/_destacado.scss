@@ -1,0 +1,17 @@
+#destacado{
+    padding: 1rem;
+    border-bottom: #C98C27 solid 2px;
+    .destacado__tit{
+        font-weight: 700;
+    }
+    .destacado__text{
+        font-family: rubik;
+        font-weight: 400;
+    }
+}
+
+.dest__img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

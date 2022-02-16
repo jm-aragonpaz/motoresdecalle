@@ -1,0 +1,24 @@
+footer{
+    margin-top: 3rem;
+}
+.btn-marg{
+    margin-top: 0.2rem;
+}
+.social{
+    padding: 1rem;
+    text-align: center;
+}
+
+
+.copy__text{
+    grid-area: copy;
+    display: flex;
+    background-color:#3b4754;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-top: #C98C27 solid 3px;
+    margin-top: 1rem;
+    text-align: center;
+}

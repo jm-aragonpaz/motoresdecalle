@@ -1,0 +1,17 @@
+#articulo{
+    .articulo__tit{
+        margin-top: 1rem;
+        font-weight: 600;
+    }
+    .articulo__est{
+        font-family: rubik;
+        margin-top: 1rem;
+        font-size: large;
+    }
+}
+
+.img__sec{
+    height: 100%;
+    width: 100%;
+    object-fit: contain
+}
