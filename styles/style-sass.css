@@ -19,7 +19,7 @@ header {
   border-bottom: #C98C27 solid 3px; }
 
 .bg-custom {
-  background-image: linear-gradient(to right, white, #DDDDDD); }
+  background-image: linear-gradient(to right, white, white); }
 
 .link__animation {
   color: #323d48; }
@@ -42,6 +42,10 @@ header {
   font-size: 4rem;
   color: #323d48;
   text-decoration: none; }
+
+.nav-link:hover {
+  transition: 0.5s;
+  color: #C98C27; }
 
 body {
   background-color: #323d48;
