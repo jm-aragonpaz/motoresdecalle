@@ -81,6 +81,11 @@ body {
   /* margin-left: 4rem; */
   padding-top: 1rem; }
 
+.videos__grid {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+
 #destacado {
   padding: 1rem;
   border-bottom: #C98C27 solid 2px; }
