@@ -1,6 +1,6 @@
 #destacado{
     padding: 1rem;
-    border-bottom: #C98C27 solid 2px;
+    // border-bottom: #C98C27 solid 2px;
     .destacado__tit{
         font-weight: 700;
     }
@@ -9,9 +9,27 @@
         font-weight: 400;
     }
 }
+.destacado_link{
+    color: #DDDDDD;
+    text-decoration: underline;
+}
+.destacado_link:hover{
+    transition: 0.5s;
+    color: #C98C27;
+}
 
 .dest__img{
     height: 100%;
     width: 100%;
     object-fit: contain;
+}
+
+.nav-link_tit{
+    padding: 0rem;
+    color: #DDDDDD;
+    text-decoration: none;
+}
+.nav-link_tit:hover{
+    transition: 0.5s;
+    color: #C98C27;
 }
