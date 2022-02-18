@@ -43,6 +43,9 @@ header {
   color: #323d48;
   text-decoration: none; }
 
+.nav-link {
+  color: #DDDDDD; }
+
 .nav-link:hover {
   transition: 0.5s;
   color: #C98C27; }
