@@ -43,18 +43,24 @@ header {
   color: #323d48;
   text-decoration: none; }
 
-.nav-link {
-  color: #DDDDDD; }
+.navbar-light .navbar-nav .nav-link {
+  color: #323d48; }
 
-.nav-link:hover {
+.navbar-light .navbar-nav .nav-link:hover {
   transition: 0.5s;
   color: #C98C27; }
 
 body {
   font-family: 'Rubik';
-  background-color: #323d48;
+  background-color: #DDDDDD;
   color: #DDDDDD;
-  padding-top: 115px; }
+  padding-top: 115px;
+  background: #485563;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #29323c, #485563);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #29323c, #485563);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
 
 #noticias {
   padding: 1rem;
@@ -69,8 +75,11 @@ body {
     padding: 0.5rem;
     margin-top: 0.5rem; }
 
-.color-links {
+.nav-link {
   color: #DDDDDD; }
+
+.nav-link:hover {
+  color: #c98c27; }
 
 .bg-dark {
   background-color: #323d48; }
@@ -80,6 +89,11 @@ body {
 
 .p-1 {
   padding: 1rem; }
+
+.bg-cards {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .bg-cards:hover {
   transition: 2s;

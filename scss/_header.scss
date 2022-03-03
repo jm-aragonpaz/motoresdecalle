@@ -32,10 +32,10 @@ header{
     color:#323d48;
     text-decoration: none;
 }
-.nav-link{
-    color: #DDDDDD;
+.navbar-light .navbar-nav .nav-link{
+    color: #323d48;
 }
-.nav-link:hover{
+.navbar-light .navbar-nav .nav-link:hover{
     transition: 0.5s;
     color: #C98C27;
 }

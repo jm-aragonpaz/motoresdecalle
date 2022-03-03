@@ -14,8 +14,11 @@
         margin-top: 0.5rem;
     }
 }
-.color-links{
+.nav-link{
     color: #DDDDDD;
+}
+.nav-link:hover{
+    color: #c98c27
 }
 .bg-dark{
     background-color: #323d48;
@@ -25,6 +28,11 @@
 }
 .p-1{
     padding: 1rem;
+}
+.bg-cards{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .bg-cards:hover{
     transition: 2s;
