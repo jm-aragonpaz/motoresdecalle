@@ -4,8 +4,11 @@
         font-weight: 700;
     }
     .destacado__text{
+        padding: 0rem 0.5rem;
         font-family: rubik;
         font-weight: 400;
+        margin-block-end: auto;
+        margin-block-start: auto;
     }
 }
 .destacado_link{
@@ -36,5 +39,49 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.7);
+}
+$breakpoint-tablet: 768px;
+@media (max-width: $breakpoint-tablet){
+    .destacado__overlay{
+        display: none;
+        position: static;
+        padding-top: 1rem;
+        margin-bottom: 1rem;
+        background: none;
+    }
+    .carousel{
+        padding-bottom: 0.1rem;
+        margin-bottom: 1rem;
+        border-bottom: #C98C27 solid 2px;
+    }
+}
+
+#agenda{
+    justify-content: center;
+    
+    .agenda-tit{
+        align-self: center;
+        font-weight: 700;
+    }
+    .agenda-pos{
+        align-self: end;
+    }
+    .agenda-txt a p{
+        color: #323d48;
+    }
+}
+.list-group{
+    flex:auto;
+}
+.list-group-item{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 2 1 0;
+    padding: 0.5rem 1rem;
+    color: #323d48;
+    text-decoration: none;
+    background-color: #dddddd;
+    border: 1px solid rgba(0,0,0,.125);
 }

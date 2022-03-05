@@ -56,11 +56,8 @@ body {
   color: #DDDDDD;
   padding-top: 115px;
   background: #485563;
-  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #29323c, #485563);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #29323c, #485563);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+  background: linear-gradient(to left, #29323c, #485563); }
 
 #noticias {
   padding: 1rem;
@@ -113,8 +110,11 @@ body {
   #destacado .destacado__tit {
     font-weight: 700; }
   #destacado .destacado__text {
+    padding: 0rem 0.5rem;
     font-family: rubik;
-    font-weight: 400; }
+    font-weight: 400;
+    margin-block-end: auto;
+    margin-block-start: auto; }
 
 .destacado_link {
   color: #DDDDDD;
@@ -142,7 +142,43 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.6); }
+  background: rgba(0, 0, 0, 0.7); }
+
+@media (max-width: 768px) {
+  .destacado__overlay {
+    display: none;
+    position: static;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    background: none; }
+  .carousel {
+    padding-bottom: 0.1rem;
+    margin-bottom: 1rem;
+    border-bottom: #C98C27 solid 2px; } }
+
+#agenda {
+  justify-content: center; }
+  #agenda .agenda-tit {
+    align-self: center;
+    font-weight: 700; }
+  #agenda .agenda-pos {
+    align-self: end; }
+  #agenda .agenda-txt a p {
+    color: #323d48; }
+
+.list-group {
+  flex: auto; }
+
+.list-group-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 2 1 0;
+  padding: 0.5rem 1rem;
+  color: #323d48;
+  text-decoration: none;
+  background-color: #dddddd;
+  border: 1px solid rgba(0, 0, 0, 0.125); }
 
 footer {
   margin-top: 3rem; }
