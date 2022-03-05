@@ -138,6 +138,12 @@ body {
   transition: 0.5s;
   color: #C98C27; }
 
+.destacado__overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6); }
+
 footer {
   margin-top: 3rem; }
 

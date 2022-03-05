@@ -1,6 +1,5 @@
 #destacado{
     padding: 1rem;
-    // border-bottom: #C98C27 solid 2px;
     .destacado__tit{
         font-weight: 700;
     }
@@ -32,4 +31,10 @@
 .nav-link_tit:hover{
     transition: 0.5s;
     color: #C98C27;
+}
+.destacado__overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
 }
