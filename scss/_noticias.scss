@@ -39,3 +39,9 @@
     background-blend-mode: overlay;
     
 }
+$breakpoint-tablet: 768px;
+@media (max-width: $breakpoint-tablet){
+    .bg-cards{
+        background-blend-mode: overlay;
+    }
+}

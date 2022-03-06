@@ -96,6 +96,10 @@ body {
   transition: 2s;
   background-blend-mode: overlay; }
 
+@media (max-width: 768px) {
+  .bg-cards {
+    background-blend-mode: overlay; } }
+
 #videos {
   /* margin-left: 4rem; */
   padding-top: 1rem; }
