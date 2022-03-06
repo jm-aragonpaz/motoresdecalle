@@ -74,6 +74,23 @@ $breakpoint-tablet: 768px;
 .list-group{
     flex:auto;
 }
+// .list-group-item{
+//     position: relative;
+//     display: flex;
+//     flex-direction: column;
+//     flex: 2 1 0;
+//     padding: 0.5rem 1rem;
+//     color: #323d48;
+//     text-decoration: none;
+//     background-color: #dddddd;
+//     border: 1px solid rgba(0,0,0,.125);
+// }
+// .list-group-item-action:hover{
+//     z-index: 1;
+//     color: #DDDDDD;
+//     text-decoration: none;
+//     background-color: #C98C27;
+// }
 .list-group-item{
     position: relative;
     display: flex;
@@ -82,6 +99,14 @@ $breakpoint-tablet: 768px;
     padding: 0.5rem 1rem;
     color: #323d48;
     text-decoration: none;
-    background-color: #dddddd;
+    background-image: linear-gradient(to right, #DDDDDD 0%, #cccccc 51%, #dddddd 100%);
     border: 1px solid rgba(0,0,0,.125);
+    transition: 0.5s;
+    background-size: 200% auto;
+}
+.list-group-item-action:hover{
+    z-index: 1;
+    background-position: right center;
+    color: #323d48;
+    text-decoration: none;
 }
