@@ -78,6 +78,9 @@ body {
 .nav-link:hover {
   color: #c98c27; }
 
+.nav-link:focus {
+  color: #dddddd; }
+
 .bg-dark {
   background-color: #323d48; }
 
@@ -196,7 +199,7 @@ footer {
   margin-top: 3rem; }
 
 .btn-marg {
-  margin-top: 0.2rem; }
+  margin-top: 0.1rem; }
 
 .social {
   padding: 1rem;
@@ -214,6 +217,49 @@ footer {
   border-top: #C98C27 solid 3px;
   margin-top: 1rem;
   text-align: center; }
+  .copy__text .copy__text-p {
+    margin-bottom: 0; }
+
+#formulario h4 {
+  margin-bottom: 0.2rem; }
+
+#formulario h5 {
+  padding-top: 0;
+  margin-bottom: 0; }
+
+#formulario .form-label {
+  margin-bottom: 0.2rem; }
+
+#formulario .form_info {
+  padding-top: 0.2rem;
+  margin-bottom: 0; }
+
+#formulario .form_text {
+  font-size: 0.9rem; }
+
+#formulario .form-control {
+  padding: 0.3rem;
+  background-color: #DDDDDD; }
+
+#formulario .form-control:focus {
+  color: #323d48;
+  background-color: #DDDDDD;
+  border-color: #ecd7b3;
+  box-shadow: 0 0 0 0.25rem #ecd7b3; }
+
+.form-check-input {
+  background-color: #DDDDDD; }
+
+.form-check-input:focus {
+  border-color: #ecd7b3;
+  box-shadow: 0 0 0 0.25rem #ecd7b3; }
+
+.form-check-input:checked {
+  background-color: #323d48;
+  border-color: #C98C27; }
+
+.btn-outline-light:focus {
+  box-shadow: none; }
 
 #articulo .articulo__tit {
   margin-top: 1rem;

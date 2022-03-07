@@ -1,25 +1,72 @@
 footer{
     margin-top: 3rem;
+
 }
 .btn-marg{
-    margin-top: 0.2rem;
+    margin-top: 0.1rem;
 }
 .social{
     padding: 1rem;
     text-align: center;
 }
 
-
 .copy__text{
-    grid-area: copy;
-    display: flex;
-    color:#323d48;
+        grid-area: copy;
+        display: flex;
+        color:#323d48;
+        background-color: #DDDDDD;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        border-top: #C98C27 solid 3px;
+        margin-top: 1rem;
+        text-align: center;
+        .copy__text-p{
+            margin-bottom: 0;
+        }
+    }
+
+#formulario{
+    h4{
+        margin-bottom: 0.2rem;
+    }
+    h5{
+        padding-top: 0;
+        margin-bottom: 0;
+    }
+    .form-label{
+        margin-bottom: 0.2rem;
+    }
+    .form_info{
+        padding-top: 0.2rem;
+        margin-bottom: 0;
+    }
+    .form_text{
+        font-size: 0.9rem;
+    }
+    .form-control{
+        padding: 0.3rem;
+        background-color: #DDDDDD;
+    }
+    .form-control:focus{
+        color: #323d48;
+        background-color: #DDDDDD;
+        border-color: #ecd7b3;
+        box-shadow: 0 0 0 0.25rem #ecd7b3
+    }
+}
+.form-check-input{
     background-color: #DDDDDD;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    border-top: #C98C27 solid 3px;
-    margin-top: 1rem;
-    text-align: center;
+}
+.form-check-input:focus{
+    border-color: #ecd7b3;
+    box-shadow: 0 0 0 0.25rem #ecd7b3;
+}
+.form-check-input:checked{
+    background-color: #323d48;
+    border-color: #C98C27;
+}
+.btn-outline-light:focus{
+    box-shadow:none;
 }
