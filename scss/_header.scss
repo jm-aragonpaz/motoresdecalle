@@ -42,3 +42,19 @@ header{
     transition: 0.5s;
     color: #C98C27;
 }
+.redes{
+    display: flex;
+    color: #323d48;
+    padding-top: 0.25rem;
+    justify-content: flex-end;
+    font-weight: 500;
+    font-size: medium;
+    background-color: #DDDDDD;
+    .redes__p{
+        align-self: center;
+        margin: 0.5rem;
+    }
+    .redes__ico{
+        margin: 0.5rem;
+    }
+}

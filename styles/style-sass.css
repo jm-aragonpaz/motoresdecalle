@@ -53,6 +53,20 @@ header {
   transition: 0.5s;
   color: #C98C27; }
 
+.redes {
+  display: flex;
+  color: #323d48;
+  padding-top: 0.25rem;
+  justify-content: flex-end;
+  font-weight: 500;
+  font-size: medium;
+  background-color: #DDDDDD; }
+  .redes .redes__p {
+    align-self: center;
+    margin: 0.5rem; }
+  .redes .redes__ico {
+    margin: 0.5rem; }
+
 body {
   font-family: 'Rubik';
   background-color: #DDDDDD;
@@ -218,7 +232,7 @@ footer {
   justify-content: center;
   align-items: center;
   border-top: #C98C27 solid 3px;
-  margin-top: 5rem;
+  margin-top: 1rem;
   text-align: center; }
   .copy__text .copy__text-p {
     margin-bottom: 0; }
