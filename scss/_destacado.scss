@@ -10,50 +10,40 @@
         margin-block-end: auto;
         margin-block-start: auto;
     }
+    .destacado__overlay{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: rgba(0,0,0,0.7);
+    }
 }
 .destacado_link{
-    color: #DDDDDD;
+    color: $claro;
     text-decoration: underline;
 }
 .destacado_link:hover{
     transition: 0.5s;
-    color: #C98C27;
-}
-
-.dest__img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
+    color: $naranja;
 }
 
 .nav-link_tit{
     padding: 0rem;
-    color: #DDDDDD;
+    color: $claro;
     text-decoration: none;
 }
 .nav-link_tit:hover{
     transition: 0.5s;
-    color: #C98C27;
+    color: $naranja;
 }
-.destacado__overlay{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background: rgba(0,0,0,0.7);
-}
-$breakpoint-tablet: 768px;
+
 @media (max-width: $breakpoint-tablet){
     .destacado__overlay{
         display: none;
-        position: static;
-        padding-top: 1rem;
-        margin-bottom: 1rem;
-        background: none;
     }
     .carousel{
         padding-bottom: 0.1rem;
         margin-bottom: 1rem;
-        border-bottom: #C98C27 solid 2px;
+        border-bottom: $naranja solid 2px;
     }
 }
 
@@ -68,7 +58,7 @@ $breakpoint-tablet: 768px;
         align-self: end;
     }
     .agenda-txt a p{
-        color: #323d48;
+        color: $dark1;
     }
 }
 .list-group{
@@ -80,9 +70,9 @@ $breakpoint-tablet: 768px;
     flex-direction: column;
     flex: 2 1 0;
     padding: 0.5rem 1rem;
-    color: #323d48;
+    color: $dark1;
     text-decoration: none;
-    background-image: linear-gradient(to right, #DDDDDD 0%, #cccccc 51%, #dddddd 100%);
+    background-image: linear-gradient(to right, $claro 0%, $claro2 51%, $claro 100%);
     border: 1px solid rgba(0,0,0,.125);
     transition: 0.5s;
     background-size: 200% auto;
@@ -90,6 +80,6 @@ $breakpoint-tablet: 768px;
 .list-group-item-action:hover{
     z-index: 1;
     background-position: right center;
-    color: #323d48;
+    color: $dark1;
     text-decoration: none;
 }

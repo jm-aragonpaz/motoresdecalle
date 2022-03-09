@@ -13,13 +13,13 @@ footer{
 .copy__text{
         grid-area: copy;
         display: flex;
-        color:#323d48;
-        background-color: #DDDDDD;
+        color:$dark1;
+        background-color: $claro;
         flex-direction: row;
         align-content: center;
         justify-content: center;
         align-items: center;
-        border-top: #C98C27 solid 3px;
+        border-top: $naranja solid 3px;
         margin-top: 1rem;
         text-align: center;
         .copy__text-p{
@@ -47,25 +47,25 @@ footer{
     }
     .form-control{
         padding: 0.3rem;
-        background-color: #DDDDDD;
+        background-color: $claro;
     }
     .form-control:focus{
-        color: #323d48;
-        background-color: #DDDDDD;
-        border-color: #ecd7b3;
-        box-shadow: 0 0 0 0.25rem #ecd7b3
+        color: $dark1;
+        background-color: $claro;
+        border-color: $claro3;
+        box-shadow: 0 0 0 0.25rem $claro3
     }
 }
 .form-check-input{
-    background-color: #DDDDDD;
+    background-color: $claro;
 }
 .form-check-input:focus{
-    border-color: #ecd7b3;
-    box-shadow: 0 0 0 0.25rem #ecd7b3;
+    border-color: $claro3;
+    box-shadow: 0 0 0 0.25rem $claro3;
 }
 .form-check-input:checked{
-    background-color: #323d48;
-    border-color: #C98C27;
+    background-color: $dark1;
+    border-color: $naranja;
 }
 .btn-outline-light:focus{
     box-shadow:none;

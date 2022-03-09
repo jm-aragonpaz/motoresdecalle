@@ -1,10 +1,9 @@
 body{
     font-family: 'Rubik';
-    background-color: #DDDDDD;
-    color: #DDDDDD;
-    padding-top: 115px;
-    background: #485563;  
-    background: -webkit-linear-gradient(to left, #29323c, #485563);
-    background: linear-gradient(to left, #29323c, #485563);
+    color: $claro;
+    padding-top: 100px;
+    background: $dark3;  
+    background: -webkit-linear-gradient(to left, $dark4, $dark3);
+    background: linear-gradient(to left, $dark4, $dark3);
 
 }
